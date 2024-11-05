@@ -1,0 +1,48 @@
+.grafico {
+    width: 1000px;
+    height: 500px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grafico .ponto {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.graficos {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.numberR {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.numberL {
+    display: flex;
+    gap: 70px;
+    margin-left: 5px;
+    position: relative;
+    top:-7px
+}
